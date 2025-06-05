@@ -9,7 +9,7 @@ function verifyAndDeploy() {
     return;
   }
 
-  const repo = "YOUR_REPO_NAME"; // 👈 Badilisha hapa na jina la repo yako
+  const repo = "https://github.com/PRINCETECH19/PRINCE-XMD"; // 👈 Badilisha hapa na jina la repo yako
   const apiUrl = `https://api.github.com/repos/${username}/${repo}`;
 
   fetch(apiUrl)
